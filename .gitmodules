@@ -1,0 +1,3 @@
+[submodule "images"]
+	path = images
+	url = git@github.com:C-W-Z/sts2-doll-mod-resources.git
