@@ -1,3 +1,4 @@
+using Godot.Bridge;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Modding;
@@ -17,6 +18,7 @@ public class Entry
     // 初始化函数
     public static void Initialize()
     {
+        ScriptManagerBridge.LookupScriptsInAssembly(typeof(Entry).Assembly);
         // 传入参数随意，只要不和其他人撞车即可
         _harmony = new Harmony(ModId);
         _harmony.PatchAll();

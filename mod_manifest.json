@@ -3,5 +3,9 @@
   "name": "Doll",
   "author": "Icya",
   "description": "Doll of Morimens",
-  "version": "0.0.1"
+  "version": "v0.1.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": ["BaseLib"],
+  "affects_gameplay": true
 }
