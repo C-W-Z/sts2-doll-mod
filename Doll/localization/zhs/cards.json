@@ -1,6 +1,14 @@
 {
   "DOLL-STRIKE_DOLL.title": "打擊",
-  "DOLL-STRIKE_DOLL.description": "",
+  "DOLL-STRIKE_DOLL.description": "造成{Damage:diff()}點傷害。",
   "DOLL-DEFEND_DOLL.title": "防禦",
-  "DOLL-DEFEND_DOLL.description": ""
+  "DOLL-DEFEND_DOLL.description": "獲得{Block:diff()}點[gold]格擋[/gold]。",
+  "DOLL-OUTER_SURGERY.title": "域外手術",
+  "DOLL-OUTER_SURGERY.description": "回復{Heal:diff()}點生命。\n給予所有敵人{WeakPower:diff()}層[gold]虛弱[/gold]。",
+  "DOLL-EQUIVALENT_EXCHANGE.title": "等價交換",
+  "DOLL-EQUIVALENT_EXCHANGE.description": "回復{Heal:diff()}點生命。棄掉所有手牌，每棄1張手牌額外回復{CalculationExtra:diff()}點生命並獲得等量[gold]格擋[/gold]。",
+  "DOLL-DEEP_HEALING.title": "深度治療",
+  "DOLL-DEEP_HEALING.description": "回復任意友方{Heal:diff()}點生命。",
+  "DOLL-OUTLAND_INFUSION.title": "外域灌注",
+  "DOLL-OUTLAND_INFUSION.description": "回復所有友方{Heal:diff()}點生命。"
 }

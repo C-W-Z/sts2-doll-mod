@@ -82,6 +82,8 @@ public sealed class Doll : PlaceholderCharacterModel
         ModelDb.Card<DefendDoll>(),
         ModelDb.Card<DefendDoll>(),
         ModelDb.Card<DefendDoll>(),
+        ModelDb.Card<OuterSurgery>(),
+        ModelDb.Card<EquivalentExchange>(),
     ];
 
     // 初始遗物
