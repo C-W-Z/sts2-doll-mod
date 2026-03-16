@@ -5,6 +5,8 @@ using Doll.Models.PotionPools;
 using Doll.Models.RelicPools;
 using Doll.Models.Relics;
 using Godot;
+using MegaCrit.Sts2.Core.Animation;
+using MegaCrit.Sts2.Core.Bindings.MegaSpine;
 using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.Models;
@@ -95,4 +97,9 @@ public sealed class Doll : PlaceholderCharacterModel
         "vfx/vfx_bloody_impact",
         "vfx/vfx_rock_shatter"
     ];
+
+    public override CreatureAnimator GenerateAnimator(MegaSprite controller)
+    {
+        return SetupAnimationState(controller, "Idle_1", "Idle_1", true, "Hit", false, "Attack", false, "Defence", false, "Idle_1", true);
+    }
 }
