@@ -25,7 +25,7 @@ public sealed class Doll : PlaceholderCharacterModel
     public override int StartingHp => 77;
 
     // 人物模型tscn路径。要自定义见下。
-    // public override string CustomVisualPath => "res://scenes/doll.tscn";
+    public override string CustomVisualPath => "res://scenes/doll.tscn";
     // 卡牌拖尾路径。
     // public override string CustomTrailPath => "res://scenes/vfx/card_trail_ironclad.tscn";
     // 人物头像路径。

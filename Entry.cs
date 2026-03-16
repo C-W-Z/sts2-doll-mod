@@ -22,7 +22,9 @@ public class Entry
         // 传入参数随意，只要不和其他人撞车即可
         _harmony = new Harmony(ModId);
         _harmony.PatchAll();
-        // If creating scenes in Godot and attaching scripts from your mod, you will need to add this to your mod's initialization.
-        ScriptManagerBridge.LookupScriptsInAssembly(Assembly.GetExecutingAssembly());
+        // If creating scenes in Godot and attaching scripts from your mod,
+        // you will need to add this to your mod's initialization.
+        var assembly = Assembly.GetExecutingAssembly();
+        ScriptManagerBridge.LookupScriptsInAssembly(assembly);
     }
 }
