@@ -12,5 +12,7 @@
   "DOLL-OUTLAND_INFUSION.title": "外域灌注",
   "DOLL-OUTLAND_INFUSION.description": "回復所有友方{Heal:diff()}點生命。",
   "DOLL-FLESH_DETACHED.title": "靈肉兩分",
-  "DOLL-FLESH_DETACHED.description": "回復生命時獲得{FleshDetachedPower:diff()}點[gold]格擋[/gold]。"
+  "DOLL-FLESH_DETACHED.description": "回復生命時獲得{FleshDetachedPower:diff()}點[gold]格擋[/gold]。",
+  "DOLL-THE_FIVE_DECAY.title": "天人五衰",
+  "DOLL-THE_FIVE_DECAY.description": "給予{Power:diff()}層[gold]易傷[/gold]、[gold]虛弱[/gold]、[gold]脆弱[/gold]、[gold]重創[/gold]。\n這名敵人本回合失去{StrengthLoss:diff()}點[gold]力量[/gold]。"
 }

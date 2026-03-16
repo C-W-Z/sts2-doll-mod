@@ -16,12 +16,8 @@ public sealed class OuterSurgery() : DollCardModel(2, CardType.Skill, CardRarity
         ArgumentNullException.ThrowIfNull(CombatState);
         await CreatureCmd.TriggerAnim(Owner.Creature, "Cast", Owner.Character.CastAnimDelay);
         await CreatureCmd.Heal(Owner.Creature, DynamicVars.Heal.BaseValue, true);
-        await PowerCmd.Apply<WeakPower>(
-            CombatState.HittableEnemies, // all enemies
-            DynamicVars.Weak.BaseValue,
-            Owner.Creature,
-            this
-        );
+        // all enemies
+        await PowerCmd.Apply<WeakPower>(CombatState.HittableEnemies, DynamicVars.Weak.BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
