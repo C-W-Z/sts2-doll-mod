@@ -48,7 +48,7 @@ public sealed class Doll : PlaceholderCharacterModel
     // public override string CustomArmScissorsTexturePath => null;
 
     // 人物选择背景。
-    // public override string CustomCharacterSelectBg => "res://scenes/char_select.tscn";
+    public override string CustomCharacterSelectBg => "res://scenes/char_select.tscn";
     // 人物选择图标。
     public override string CustomCharacterSelectIconPath => "res://images/char_select.png";
     // 人物选择图标-锁定状态。

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbo2y70q4q221"]
+
+[ext_resource type="Texture2D" uid="uid://2ks58yr8csr2" path="res://images/char_select_bg.png" id="1_hjl58"]
+
+[node name="CharSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 2600.635
+offset_bottom = 1200.0
+texture = ExtResource("1_hjl58")
+expand_mode = 3
