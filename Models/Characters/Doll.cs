@@ -31,7 +31,7 @@ public sealed class Doll : PlaceholderCharacterModel
     // 人物头像路径。
     public override string CustomIconTexturePath => "res://images/icon_doll.jpg";
     // 人物头像2号。
-    // public override string CustomIconPath => "res://scenes/ui/character_icons/ironclad_icon.tscn";
+    public override string CustomIconPath => "res://scenes/doll_icon.tscn";
     // 能量表盘tscn路径。要自定义见下。
     // public override string CustomEnergyCounterPath => "res://test/scenes/test_energy_counter.tscn";
     // 篝火休息动画。
