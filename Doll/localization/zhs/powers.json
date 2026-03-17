@@ -1,5 +1,8 @@
 {
   "DOLL-FLESH_DETACHED_POWER.title": "靈肉兩分",
   "DOLL-FLESH_DETACHED_POWER.description": "回復生命時獲得[blue]{Amount}[/blue]點[gold]格擋[/gold]。",
-  "DOLL-FLESH_DETACHED_POWER.smartDescription": "回復生命時獲得[blue]{Amount}[/blue]點[gold]格擋[/gold]。"
+  "DOLL-FLESH_DETACHED_POWER.smartDescription": "回復生命時獲得[blue]{Amount}[/blue]點[gold]格擋[/gold]。",
+  "DOLL-BLIGHTEN_POWER.title": "重創",
+  "DOLL-BLIGHTEN_POWER.description": "生命回復[blue]-25%[/blue]，持續[blue]{Amount}[/blue]回合。",
+  "DOLL-BLIGHTEN_POWER.smartDescription": "生命回復[blue]-25%[/blue]，持續[blue]{Amount}[/blue]回合。"
 }

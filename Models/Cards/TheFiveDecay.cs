@@ -26,6 +26,7 @@ public sealed class TheFiveDecay() : DollCardModel(1, CardType.Skill, CardRarity
         await PowerCmd.Apply<FrailPower>(cardPlay.Target, DynamicVars["Power"].BaseValue, Owner.Creature, this);
         await PowerCmd.Apply<TheFiveDecayPower>(cardPlay.Target, DynamicVars["StrengthLoss"].BaseValue, Owner.Creature, this);
         // TODO: Apply 重創
+        await PowerCmd.Apply<BlightenPower>(cardPlay.Target, DynamicVars["Power"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
