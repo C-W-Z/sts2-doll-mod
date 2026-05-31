@@ -33,6 +33,7 @@ public sealed class BlightenPower : DollPowerModel, IHealAmountModifier
     {
         if (side == CombatSide.Enemy)
         {
+            Entry.Logger.Info("Owner.IsPlayer == " + Owner.IsPlayer.ToString() + "; SkipNextDurationTick == " + SkipNextDurationTick.ToString());
             await PowerCmd.TickDownDuration(this);
         }
     }
