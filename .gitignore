@@ -1,3 +1,14 @@
-# Godot 4+ specific ignores
+bin/
+obj/
+.vs/
+.idea/
 .godot/
-/android/
+*.DotSettings
+*.DotSettings.user
+
+local.props
+*.uid
+*.import
+*.tmp
+*.log
+
